@@ -1,7 +1,7 @@
 import React from "react"
 import { StaticQuery, graphql } from "gatsby"
 import Image from "gatsby-image"
-
+import { FaMountain } from 'react-icons/fa';
 import { rhythm } from "../utils/typography"
 
 function Bio() {
@@ -31,11 +31,10 @@ function Bio() {
               }}
             />
             <p>
-              Written by <strong>{author}</strong> who lives and works in San
-              Francisco building useful things.
+              Portfolio for <strong>{author}</strong> who lives and works in Boulder, Colorado. <FaMountain />
               {` `}
               <a href={`https://twitter.com/${social.twitter}`}>
-                You should follow him on Twitter
+                Follow him on Twitter.
               </a>
             </p>
           </div>
