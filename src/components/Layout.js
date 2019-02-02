@@ -1,7 +1,8 @@
 import React from 'react';
 import { Link } from 'gatsby';
-
 import { rhythm, scale } from '../utils/typography';
+import styles from './layout.module.css';
+import Bio from './bio.js';
 
 class Layout extends React.Component {
    render() {
@@ -51,22 +52,40 @@ class Layout extends React.Component {
             </h3>
          );
       }
+
       return (
          <div
             style={{
                marginLeft: `auto`,
                marginRight: `auto`,
-               maxWidth: rhythm(24),
+               maxWidth: rhythm(40),
                padding: `${rhythm(1.5)} ${rhythm(3 / 4)}`
             }}
          >
-            <header>{header}</header>
-            <main>{children}</main>
-            <footer>
-               © {new Date().getFullYear()}, Built with
-               {` `}
-               <a href="https://www.gatsbyjs.org">Gatsby</a>
-            </footer>
+            <div className={styles.gridWrapper}>
+
+               <div className={styles.feature}>
+               <h1>About Me</h1>
+               <Bio />
+               </div>
+               
+               <div className={styles.panel}>Project A</div>
+               <div className={styles.panel}>Project B</div>
+               <div className={styles.panel}>Project C</div>
+               <div className={styles.panel}>Project D</div>
+               <div className={styles.panel}>Project E</div>
+               <div className={styles.panel}>Project F</div>
+               <div className={styles.panel}>Project G</div>
+               <div className={styles.panel}>Project H</div>
+
+               {/* <main>{children}</main> */}
+
+               <footer className={styles.footer}>
+                  © {new Date().getFullYear()}, Built with
+                  {` `}
+                  <a href="https://www.gatsbyjs.org">Gatsby</a>
+               </footer>
+            </div>
          </div>
       );
    }
