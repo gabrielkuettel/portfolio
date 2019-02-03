@@ -5,6 +5,7 @@ import Layout from '../components/Layout';
 import SEO from '../components/seo';
 import { rhythm } from '../utils/typography';
 import styles from './index.module.css';
+import WebImage from '../components/Image/WebImage';
 import Image from '../components/Image/Image';
 
 class BlogIndex extends React.Component {
@@ -21,59 +22,55 @@ class BlogIndex extends React.Component {
             />
 
             <div className={styles.gridWrapper}>
-               <div className={styles.feature}>
-                  <Image />
-               </div>
+               {posts.map(({ node }) => {
+                  const slug = node.fields.slug.slice(1);
+                  const title = node.frontmatter.title || node.fields.slug;
+                  let image = 'placeholder.jpg';
 
-               <div className={styles.panel}>
-                  <Image />
-               </div>
-               <div className={styles.panel}>
-                  <Image />
-               </div>
-               <div className={styles.panel}>
-                  <Image />
-               </div>
-               <div className={styles.panel}>
-                  <Image />
-               </div>
-               <div className={styles.panel}>
-                  <Image />
-               </div>
-               <div className={styles.panel}>
-                  <Image />
-               </div>
-               <div className={styles.panel}>
-                  <Image />
-               </div>
-               <div className={styles.panel}>
-                  <Image />
-               </div>
+                  if (node.frontmatter.img) {
+                     image = node.frontmatter.img.relativePath;
+                  }
 
-               <footer className={styles.footer} />
-            </div>
+                  console.log('image', image);
 
-            {posts.map(({ node }) => {
-               const title = node.frontmatter.title || node.fields.slug;
-               return (
-                  <div key={node.fields.slug}>
-                     <h3
-                        style={{
-                           marginBottom: rhythm(1 / 4)
-                        }}
+                  return (
+                     <div
+                        key={node.fields.slug}
+                        className={
+                           node.frontmatter.feature
+                              ? styles.feature
+                              : styles.panel
+                        }
                      >
-                        <Link
-                           style={{ boxShadow: `none` }}
-                           to={node.fields.slug}
-                        >
-                           {title}
+                        <Link to={node.fields.slug}>
+                           {/* {title} */}
+                           <Image src={image} />
                         </Link>
-                     </h3>
-                     <small>{node.frontmatter.date}</small>
-                     <p dangerouslySetInnerHTML={{ __html: node.excerpt }} />
-                  </div>
-               );
-            })}
+                     </div>
+                     // <div key={node.fields.slug}>
+                     //    <p>
+
+                     //    </p>
+                     //    <h3
+                     //       style={{
+                     //          marginBottom: rhythm(1 / 4)
+                     //       }}
+                     //    >
+                     //       <Link
+                     //          style={{ boxShadow: `none` }}
+                     //          to={node.fields.slug}
+                     //       >
+                     //          {title}
+                     //       </Link>
+                     //    </h3>
+                     //    <small>{node.frontmatter.date}</small>
+                     //    <p dangerouslySetInnerHTML={{ __html: node.excerpt }} />
+                     // </div>
+                  );
+               })}
+
+               <div className={styles.footer} />
+            </div>
          </Layout>
       );
    }
@@ -88,7 +85,7 @@ export const pageQuery = graphql`
             title
          }
       }
-      allMarkdownRemark(sort: { fields: [frontmatter___date], order: DESC }) {
+      allMarkdownRemark(sort: { fields: [frontmatter___title], order: ASC }) {
          edges {
             node {
                excerpt
@@ -98,6 +95,11 @@ export const pageQuery = graphql`
                frontmatter {
                   date(formatString: "MMMM DD, YYYY")
                   title
+                  feature
+                  img {
+                     id
+                     relativePath
+                  }
                }
             }
          }

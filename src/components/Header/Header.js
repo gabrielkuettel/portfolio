@@ -53,7 +53,7 @@ const Header = ({ location, title }) => {
 
    return (
       <header>
-         <div style={{ height: `8vh`, padding: `0 20px` }}>
+         <div style={{ height: `75px`, padding: `0 20px` }}>
             <div style={{ float: `left` }}>
                <Bio />
             </div>
