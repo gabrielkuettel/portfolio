@@ -1,13 +1,14 @@
 import React from 'react';
 import { Link, graphql } from 'gatsby';
 
-import Bio from '../components/Bio';
+import Bio from '../components/Bio/Bio';
 import Layout from '../components/Layout';
 import SEO from '../components/seo';
 import { rhythm, scale } from '../utils/typography';
 
 class BlogPostTemplate extends React.Component {
    render() {
+      
       const post = this.props.data.markdownRemark;
       const siteTitle = this.props.data.site.siteMetadata.title;
       const { previous, next } = this.props.pageContext;

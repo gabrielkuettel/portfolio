@@ -1,10 +1,11 @@
 import React from 'react';
 import { Link, graphql } from 'gatsby';
 
-import Bio from '../components/Bio';
 import Layout from '../components/Layout';
 import SEO from '../components/seo';
 import { rhythm } from '../utils/typography';
+import styles from './index.module.css';
+import Image from '../components/Image/Image';
 
 class BlogIndex extends React.Component {
    render() {
@@ -18,8 +19,40 @@ class BlogIndex extends React.Component {
                title="All posts"
                keywords={[`blog`, `gatsby`, `javascript`, `react`]}
             />
-            <Bio />
-            
+
+            <div className={styles.gridWrapper}>
+               <div className={styles.feature}>
+                  <Image />
+               </div>
+
+               <div className={styles.panel}>
+                  <Image />
+               </div>
+               <div className={styles.panel}>
+                  <Image />
+               </div>
+               <div className={styles.panel}>
+                  <Image />
+               </div>
+               <div className={styles.panel}>
+                  <Image />
+               </div>
+               <div className={styles.panel}>
+                  <Image />
+               </div>
+               <div className={styles.panel}>
+                  <Image />
+               </div>
+               <div className={styles.panel}>
+                  <Image />
+               </div>
+               <div className={styles.panel}>
+                  <Image />
+               </div>
+
+               <footer className={styles.footer} />
+            </div>
+
             {posts.map(({ node }) => {
                const title = node.frontmatter.title || node.fields.slug;
                return (
