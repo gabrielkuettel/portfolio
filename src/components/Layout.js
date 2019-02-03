@@ -2,7 +2,7 @@ import React from 'react';
 import { Link } from 'gatsby';
 import { rhythm, scale } from '../utils/typography';
 import styles from './layout.module.css';
-import Bio from './bio.js';
+import Bio from './Bio.js';
 
 class Layout extends React.Component {
    render() {
@@ -63,12 +63,10 @@ class Layout extends React.Component {
             }}
          >
             <div className={styles.gridWrapper}>
-
                <div className={styles.feature}>
-               <h1>About Me</h1>
-               <Bio />
+                  <Bio />
                </div>
-               
+
                <div className={styles.panel}>Project A</div>
                <div className={styles.panel}>Project B</div>
                <div className={styles.panel}>Project C</div>

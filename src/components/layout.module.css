@@ -47,9 +47,10 @@
 }
 
 .gridWrapper > * {
-   background-color: #f2f2f2;
-   color: #595959;
-   /* border-radius: 5px; */
+   /* background-color: #f2f2f2; */
+   border: 1px solid #6e6e6e;
+   /* color: #595959; */
+   border-radius: 5px;
    padding: 20px;
    font-size: 100%;
    margin-bottom: 10px;

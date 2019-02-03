@@ -3,6 +3,8 @@ import { StaticQuery, graphql } from 'gatsby';
 import Image from 'gatsby-image';
 import { FaMountain } from 'react-icons/fa';
 import { rhythm } from '../utils/typography';
+import Typist from './Typist';
+import { relative } from 'path';
 
 function Bio() {
    return (
@@ -11,34 +13,36 @@ function Bio() {
          render={data => {
             const { author, social } = data.site.siteMetadata;
             return (
-               <div
-                  style={{
-                     display: `flex`,
-                     marginBottom: rhythm(2.5)
-                  }}
-               >
-                  <Image
-                     fixed={data.avatar.childImageSharp.fixed}
-                     alt={author}
+               <>
+                  <div
                      style={{
-                        marginRight: rhythm(1 / 2),
-                        marginBottom: 0,
-                        minWidth: 50,
-                        borderRadius: `100%`
+                        display: `flex`,
+                        marginBottom: rhythm(2.5)
                      }}
-                     imgStyle={{
-                        borderRadius: `50%`
-                     }}
-                  />
-                  <p>
+                  >
+                     <Image
+                        fixed={data.avatar.childImageSharp.fixed}
+                        alt={author}
+                        style={{
+                           marginRight: rhythm(1 / 2),
+                           marginBottom: 0,
+                           minWidth: 50,
+                           borderRadius: `100%`
+                        }}
+                        imgStyle={{
+                           borderRadius: `50%`
+                        }}
+                     />
+                     <p style={{
+                        marginTop: `10px`
+                     }}><Typist /></p>
+                  </div>
+                  {/* <p>
                      Portfolio for <strong>{author}</strong> who lives and works
                      in Boulder, Colorado. <FaMountain />
                      {` `}
-                     <a href={`https://twitter.com/${social.twitter}`}>
-                        Follow him on Twitter.
-                     </a>
-                  </p>
-               </div>
+                  </p> */}
+               </>
             );
          }}
       />
