@@ -21,8 +21,8 @@
 .gridWrapper {
    display: grid;
    margin: 0 auto;
-   grid-template-columns: repeat(auto-fill, minmax(190px, 1fr));
-   grid-auto-rows: 190px;
+   grid-template-columns: repeat(auto-fill, minmax(calc(960px / 5), 1fr));
+   grid-auto-rows: calc(100vh / 5); /* 200px */
 }
 
 .feature {
