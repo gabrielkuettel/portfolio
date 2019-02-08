@@ -115,3 +115,11 @@
       grid-row: 1 / -1;
    }
 }
+
+@media only screen and (max-device-width: 480px) {
+
+   .title, .subtitle {
+      opacity: 1;
+   }
+
+}

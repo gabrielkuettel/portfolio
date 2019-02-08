@@ -2,9 +2,9 @@ import React from 'react';
 
 const Footer = props => (
    <footer>
-      {new Date().getFullYear()}, Built with
+      (c) {new Date().getFullYear()} by
       {` `}
-      <a href="https://www.gatsbyjs.org">Gatsby</a>
+      <a href="https://www.gatsbyjs.org">Gabriel Kuettel</a>
    </footer>
 );
 
