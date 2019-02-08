@@ -1,7 +1,6 @@
 ---
 title: "About Me"
 date: "2011-05-06T23:46:37.121Z"
-category: "Nostrud ipsum consectetur dolore nisi velit ad."
 img: "me.jpg"
 feature: true
 ---

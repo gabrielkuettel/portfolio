@@ -1,5 +1,6 @@
 ---
 title: "Project 4"
+subtitle: "branding"
 date: "2014-05-06T23:46:37.121Z"
 img: "project-4.jpg"
 ---

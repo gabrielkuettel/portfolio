@@ -24,6 +24,7 @@ class Layout extends React.Component {
             <main>{children}</main>
 
             <Footer />
+            
          </div>
       );
    }
