@@ -2,7 +2,7 @@ import React from 'react';
 import Typing from 'react-typing-animation';
 
 const AnimatedTypingComponent = ({ pathname }) => (
-   <Typing speed={60}>
+   <Typing>
       {pathname === `${__PATH_PREFIX__}/` ? (
          <>
             Hi!
