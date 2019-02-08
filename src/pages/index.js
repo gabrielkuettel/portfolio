@@ -25,6 +25,8 @@ class BlogIndex extends React.Component {
                {posts.map(({ node }) => {
                   const slug = node.fields.slug.slice(1);
                   const title = node.frontmatter.title || node.fields.slug;
+                  const category = node.frontmatter.category || null;
+
                   let image = 'placeholder.jpg';
 
                   if (node.frontmatter.img) {
@@ -42,10 +44,13 @@ class BlogIndex extends React.Component {
                               : styles.panel
                         }
                      >
-                        <Link to={node.fields.slug}>
-                           {/* {title} */}
-                           <Image src={image} />
-                        </Link>
+                        <div className={styles.container}>
+                           <Link to={node.fields.slug}>
+                              <h4 className={styles.title}>{title}</h4>
+                              <Image src={image} />
+                              {category ? (<h6 className={styles.subtitle}>{category}</h6>) : (null)}
+                           </Link>
+                        </div>
                      </div>
                      // <div key={node.fields.slug}>
                      //    <p>
@@ -96,6 +101,7 @@ export const pageQuery = graphql`
                   date(formatString: "MMMM DD, YYYY")
                   title
                   feature
+                  category
                   img {
                      id
                      relativePath

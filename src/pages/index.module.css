@@ -42,6 +42,47 @@
 }
 
 .header,
+.container {
+   height: 100%;
+   width: 100%;
+}
+
+.title {
+   position: absolute;
+   padding: 10px 100px 10px 10px;
+   margin: 0;
+   opacity: 0;
+   z-index: 1;
+   transition: 0.5s ease;
+   text-decoration: none;
+   background-image: linear-gradient(
+      to right,
+      rgba(255, 255, 255, 1),
+      rgba(255, 255, 255, 0)
+   );
+}
+
+.subtitle {
+   text-align: right;
+   position: relative;
+   font-size: 12px;
+   bottom: 95px;
+   padding: 10px 10px 10px 10px;
+   opacity: 0;
+   z-index: 1;
+   transition: 0.5s ease;
+   background-image: linear-gradient(
+      to right,
+      rgba(255, 255, 255, 0),
+      rgba(255, 255, 255, 1)
+   );
+}
+
+.container:hover .title,
+.container:hover .subtitle {
+   opacity: 1;
+}
+
 .footer {
    border: 1px solid #c7c2c2;
    margin-left: 5px;

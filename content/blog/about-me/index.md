@@ -1,7 +1,9 @@
 ---
-title: "Project 1"
-date: "2014-05-06T23:46:37.121Z"
-img: "project-1.jpg"
+title: "About Me"
+date: "2011-05-06T23:46:37.121Z"
+category: "Nostrud ipsum consectetur dolore nisi velit ad."
+img: "me.jpg"
+feature: true
 ---
 
 Wow! I love blogging so much already.

@@ -1,8 +1,8 @@
 ---
-title: "About Me"
-date: "2011-05-06T23:46:37.121Z"
-img: "me.jpg"
-feature: true
+title: "Project 1"
+category: "web development"
+date: "2014-05-06T23:46:37.121Z"
+img: "project-1.jpg"
 ---
 
 Wow! I love blogging so much already.
