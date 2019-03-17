@@ -1,22 +1,19 @@
 ---
 title: "SC Animation"
 subtitle: "motion design"
-date: "2014-05-06T23:46:37.121Z"
 img: "thumbnail.jpg"
 order: 6
 ---
 
-Wow! I love blogging so much already.
+Feature animation designed for <a href="https://sustain-cert.com">SustainCERT</a>.
 
-Did you know that "despite its name, salted duck eggs can also be made from
-chicken eggs, though the taste and texture will be somewhat different, and the
-egg yolk will be less rich."?
-([Wikipedia Link](http://en.wikipedia.org/wiki/Salted_duck_egg))
+<iframe     
+    width="560" 
+    height="315" 
+    src="https://www.youtube.com/embed/nYevpNo3zM0?controls=0&rel=0&autoplay=1" 
+    frameborder="0" 
+    allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" 
+    allowfullscreen 
+></iframe>
 
-Yeah, I didn't either.
-
-title: "GS Platform"
-subtitle: "web design"
-order: 3
-date: "2014-05-06T23:46:37.121Z"
-img: "thumbnail.jpg"
+Made with Adobe After Effects, Adobe Illustrator
