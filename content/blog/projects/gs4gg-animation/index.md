@@ -1,8 +1,9 @@
 ---
-title: "Project 8"
+title: "GS4GG Animation"
+subtitle: "motion design"
 date: "2015-05-28T22:40:32.169Z"
-img: "project-8.jpg"
-
+order: 7
+img: "thumbnail.jpg"
 ---
 
 Far far away, behind the word mountains, far from the countries Vokalia and

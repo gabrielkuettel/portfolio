@@ -1,8 +1,9 @@
 ---
-title: "Project 4"
-subtitle: "branding"
+title: "PD Portal"
+subtitle: "frontend development"
 date: "2014-05-06T23:46:37.121Z"
-img: "project-4.jpg"
+order: 4
+img: "thumbnail.jpg"
 ---
 
 Wow! I love blogging so much already.

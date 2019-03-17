@@ -1,7 +1,9 @@
 ---
-title: "Project 5"
+title: "GS Platform"
+subtitle: "web design"
+order: 3
 date: "2014-05-06T23:46:37.121Z"
-img: "project-5.jpg"
+img: "thumbnail.jpg"
 ---
 
 Wow! I love blogging so much already.

@@ -1,6 +1,6 @@
 ---
-title: "Project 2"
-subtitle: "graphic design"
+title: "SustainCERT"
+subtitle: "identity design"
 order: 2
 date: "2014-05-06T23:46:37.121Z"
 img: "sustaincert-logo.png"

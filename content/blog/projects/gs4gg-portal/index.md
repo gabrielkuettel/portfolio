@@ -1,7 +1,9 @@
 ---
-title: "Project 6"
+title: "GS4GG Portal"
+subtitle: "wordpress"
 date: "2015-05-01T22:12:03.284Z"
-img: "project-6.jpg"
+img: "thumbnail.jpg"
+order: 8
 ---
 
 This is my first post on my new fake blog! How exciting!

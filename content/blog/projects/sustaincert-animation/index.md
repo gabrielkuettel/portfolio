@@ -1,7 +1,9 @@
 ---
-title: "Project 7"
-date: "2015-05-06T23:46:37.121Z"
-img: "project-7.jpg"
+title: "SC Animation"
+subtitle: "motion design"
+date: "2014-05-06T23:46:37.121Z"
+img: "thumbnail.jpg"
+order: 6
 ---
 
 Wow! I love blogging so much already.
@@ -12,3 +14,9 @@ egg yolk will be less rich."?
 ([Wikipedia Link](http://en.wikipedia.org/wiki/Salted_duck_egg))
 
 Yeah, I didn't either.
+
+title: "GS Platform"
+subtitle: "web design"
+order: 3
+date: "2014-05-06T23:46:37.121Z"
+img: "thumbnail.jpg"
