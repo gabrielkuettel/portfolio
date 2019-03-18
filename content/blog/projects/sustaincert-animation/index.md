@@ -17,5 +17,3 @@ Feature animation designed for <a href="https://sustain-cert.com">SustainCERT</a
     allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" 
     allowfullscreen 
 ></iframe>
-
-Made with Adobe After Effects, Adobe Illustrator

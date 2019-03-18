@@ -64,16 +64,32 @@ const Header = ({ location, title }) => {
           className={styles.social}
           style={{ float: `right`, marginTop: `20px` }}
         >
-          <a style={{ marginRight: `6px` }} href="/">
+          <a
+            target="_blank"
+            href="https://twitter.com/GabrielKuettel"
+            style={{ marginRight: `6px` }}
+          >
             <FaTwitter />
           </a>{" "}
-          <a style={{ marginRight: `6px` }} href="/">
+          <a
+            target="_blank"
+            href="https://www.linkedin.com/in/gabrielkuettel/"
+            style={{ marginRight: `6px` }}
+          >
             <FaLinkedin />
           </a>{" "}
-          <a style={{ marginRight: `6px` }} href="/">
+          <a
+            target="_blank"
+            href="https://github.com/gabrielkuettel"
+            style={{ marginRight: `6px` }}
+          >
             <FaGithub />
           </a>{" "}
-          <a style={{ marginRight: `6px` }} href="/">
+          <a
+            target="_blank"
+            href="mailto:gabrielkuettel@gmail.com"
+            style={{ marginRight: `6px` }}
+          >
             <FaEnvelope />
           </a>
         </div>

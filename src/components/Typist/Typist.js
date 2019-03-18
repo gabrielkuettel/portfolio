@@ -20,7 +20,7 @@ const AnimatedTypingComponent = ({ pathname }) => (
         motion designer
         <Typing.Delay ms={1000} />
         <Typing.Backspace count={22} />
-        How can I <a href="/">help?</a>
+        How can I <a href="mailto:gabrielkuettel@gmail.com">help?</a>
       </>
     ) : (
       <>{pathname}</>
