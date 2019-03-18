@@ -43,7 +43,7 @@ class BlogIndex extends React.Component {
               >
                 <div className={styles.container}>
                   <Link to={node.fields.slug}>
-                    <h3 className={styles.title}>{title}</h3>
+                    <h4 className={styles.title}>{title}</h4>
                     <Image src={image} />
                     <h5 className={styles.subtitle}>
                       {subtitle ? <>{subtitle}</> : null}

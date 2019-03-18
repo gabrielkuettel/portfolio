@@ -1,6 +1,7 @@
 ---
 title: "About Me"
 date: "2011-05-06T23:46:37.121Z"
+order: 0
 img: "me.jpg"
 feature: true
 ---

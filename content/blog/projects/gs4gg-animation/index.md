@@ -1,10 +1,22 @@
 ---
 title: "GS4GG Animation"
-subtitle: "motion design"
-date: "2015-05-28T22:40:32.169Z"
+subtitle: "Motion Design"
+date: "2016"
+tools: "Adobe After Effects, Adobe Illustrator"
 order: 7
 img: "thumbnail.jpg"
 ---
+
+<iframe     
+    width="560" 
+    height="315" 
+    src="https://www.youtube.com/embed/nj1BwBrMfAU?controls=0&rel=0&autoplay=1" 
+    frameborder="0" 
+    allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" 
+    allowfullscreen 
+></iframe>
+
+Feature animation designed for <a target="_blank" href="https://goldstandard.org">Gold Standard</a>.
 
 Far far away, behind the word mountains, far from the countries Vokalia and
 Consonantia, there live the blind texts. Separated they live in Bookmarksgrove

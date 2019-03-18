@@ -1,7 +1,9 @@
 ---
 title: "SC Animation"
 subtitle: "motion design"
+date: "2018"
 img: "thumbnail.jpg"
+tools: "Adobe After Effects, Adobe Illustrator"
 order: 6
 ---
 

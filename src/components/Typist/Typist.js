@@ -1,33 +1,31 @@
-import React from 'react';
-import Typing from 'react-typing-animation';
+import React from "react";
+import Typing from "react-typing-animation";
 
 const AnimatedTypingComponent = ({ pathname }) => (
-   <Typing>
-      {pathname === `${__PATH_PREFIX__}/` ? (
-         <>
-            Hi!
-            <Typing.Delay ms={2000} />
-            <Typing.Backspace count={3} />
-            I'm Gabriel
-            <Typing.Delay ms={1000} />
-            <Typing.Backspace count={7} />
-            a web developer
-            <Typing.Delay ms={1000} />
-            <Typing.Backspace count={13} />
-            graphic designer
-            <Typing.Delay ms={1000} />
-            <Typing.Backspace count={16} />
-            {`1337 hacker... ;)`}
-            <Typing.Delay ms={1000} />
-            <Typing.Backspace count={24} />
-            How can I <a href="/">help?</a>
-         </>
-      ) : (
-         <>
-            {pathname}
-         </>
-      )}
-   </Typing>
+  <Typing>
+    {pathname === `${__PATH_PREFIX__}/` ? (
+      <>
+        Hi!
+        <Typing.Delay ms={2000} />
+        <Typing.Backspace count={3} />
+        I'm Gabriel
+        <Typing.Delay ms={1000} />
+        <Typing.Backspace count={7} />
+        a frontend developer
+        <Typing.Delay ms={1000} />
+        <Typing.Backspace count={18} />
+        backend developer
+        <Typing.Delay ms={1000} />
+        <Typing.Backspace count={17} />
+        motion designer
+        <Typing.Delay ms={1000} />
+        <Typing.Backspace count={22} />
+        How can I <a href="/">help?</a>
+      </>
+    ) : (
+      <>{pathname}</>
+    )}
+  </Typing>
 );
 
 export default AnimatedTypingComponent;
