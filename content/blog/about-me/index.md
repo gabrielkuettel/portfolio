@@ -1,16 +1,14 @@
 ---
 title: "About Me"
-date: "2011-05-06T23:46:37.121Z"
+subtitle: "Fullstack Developer, Graphic & Motion Designer, Marketing wiz"
+date: "2019"
 order: 0
 img: "me.jpg"
 feature: true
 ---
 
-Wow! I love blogging so much already.
+### Hi! My name is Gabriel. I'm a fullstack web developer with a background in graphic design, branding and marketing.
 
-Did you know that "despite its name, salted duck eggs can also be made from
-chicken eggs, though the taste and texture will be somewhat different, and the
-egg yolk will be less rich."?
-([Wikipedia Link](http://en.wikipedia.org/wiki/Salted_duck_egg))
+I'm currently helping to teach new developers at the University of Denver's Coding Bootcamp. In my free time, I'm working on <a href="http://gitcamp.herokuapp.com">gitCamp</a> - an open-source collaboration platform for students built on the github API.
 
-Yeah, I didn't either.
+I love building blazing fast, mobile-first, and scalable progressive web apps for small businesses and non-profits. <a href="mailto:gabrielkuettel@gmail.com.com">Hire me</a> for your next project!
