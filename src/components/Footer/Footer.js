@@ -1,12 +1,12 @@
-import React from 'react';
-import styles from './footer.module.css';
+import React from "react";
+import styles from "./footer.module.css";
 
 const Footer = props => (
-   <footer className={styles.footer}>
-      (c) {new Date().getFullYear()} by
-      {` `}
-      <a href="https://www.gatsbyjs.org">Gabriel Kuettel</a>
-   </footer>
+  <footer className={styles.footer}>
+    Designed and built by {` `}
+    <a href="https://www.gatsbyjs.org">Gabriel Kuettel</a> (c){" "}
+    {new Date().getFullYear()}
+  </footer>
 );
 
 export default Footer;

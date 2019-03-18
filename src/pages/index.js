@@ -1,6 +1,5 @@
 import React from "react";
 import { Link, graphql } from "gatsby";
-
 import Layout from "../components/Layout";
 import SEO from "../components/seo";
 import { rhythm } from "../utils/typography";
@@ -52,29 +51,10 @@ class BlogIndex extends React.Component {
                   </Link>
                 </div>
               </div>
-              // <div key={node.fields.slug}>
-              //    <p>
-
-              //    </p>
-              //    <h3
-              //       style={{
-              //          marginBottom: rhythm(1 / 4)
-              //       }}
-              //    >
-              //       <Link
-              //          style={{ boxShadow: `none` }}
-              //          to={node.fields.slug}
-              //       >
-              //          {title}
-              //       </Link>
-              //    </h3>
-              //    <small>{node.frontmatter.date}</small>
-              //    <p dangerouslySetInnerHTML={{ __html: node.excerpt }} />
-              // </div>
             );
           })}
 
-          <div className={styles.footer} />
+          {/* <div className={styles.footer} /> */}
         </div>
       </Layout>
     );
