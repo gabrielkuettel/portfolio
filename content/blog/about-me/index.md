@@ -1,6 +1,6 @@
 ---
 title: "About Me"
-subtitle: "Fullstack Developer, Graphic & Motion Designer, Marketing wiz"
+subtitle: "Fullstack Developer, Graphic & Motion Designer"
 date: "2019"
 order: 0
 img: "me.jpg"
