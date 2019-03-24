@@ -4,12 +4,12 @@ import Image from "gatsby-image";
 import { rhythm } from "../../utils/typography";
 import Typist from "../Typist/Typist";
 
-const Bio = ({ pathname }) => {
+const Avatar = ({ pathname, phrases }) => {
   return (
     <StaticQuery
-      query={bioQuery}
+      query={avatarQuery}
       render={data => {
-        const { author, social } = data.site.siteMetadata;
+        const { author } = data.site.siteMetadata;
         return (
           <div
             style={{
@@ -37,7 +37,7 @@ const Bio = ({ pathname }) => {
                 marginTop: `12px`
               }}
             >
-              <Typist pathname={pathname} />
+              <Typist pathname={pathname} phrases={phrases} />
             </div>
           </div>
         );
@@ -46,8 +46,8 @@ const Bio = ({ pathname }) => {
   );
 };
 
-const bioQuery = graphql`
-  query BioQuery {
+const avatarQuery = graphql`
+  query avatarQuery {
     avatar: file(absolutePath: { regex: "/me.jpg/" }) {
       childImageSharp {
         fixed(width: 100, height: 100) {
@@ -66,4 +66,4 @@ const bioQuery = graphql`
   }
 `;
 
-export default Bio;
+export default Avatar;

@@ -1,14 +1,11 @@
-import React from "react";
-import { Link } from "gatsby";
-import { rhythm, scale } from "../utils/typography";
-import styles from "./layout.module.css";
-import Bio from "./Bio/Bio.js";
+import React, { Component } from "react";
+import { rhythm } from "../utils/typography";
 import Header from "./Header/Header";
 import Footer from "./Footer/Footer";
 
-class Layout extends React.Component {
+class Layout extends Component {
   render() {
-    const { title, children } = this.props;
+    const { title, children, phrases } = this.props;
 
     return (
       <div
@@ -19,7 +16,11 @@ class Layout extends React.Component {
           padding: `${rhythm(1 / 2)} ${rhythm(1 / 2)}`
         }}
       >
-        <Header location={this.props.location} title={title} />
+        <Header
+          location={this.props.location}
+          title={title}
+          phrases={phrases}
+        />
 
         <main>{children}</main>
 
