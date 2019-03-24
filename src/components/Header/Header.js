@@ -43,8 +43,6 @@ const Header = ({ location, phrases, title }) => {
             <FaGithub />
           </a>{" "}
           <a
-            target="_blank"
-            rel="noopener noreferrer"
             href="mailto:gabrielkuettel@gmail.com"
             style={{ marginRight: `6px` }}
           >
