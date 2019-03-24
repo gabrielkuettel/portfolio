@@ -3,7 +3,7 @@ module.exports = {
     title: `Gabriel Kuettel's portfolio`,
     author: `Gabriel Kuettel`,
     description: `My portfolio where I showcase my most recent work.`,
-    siteUrl: `https://gatsby-starter-blog-demo.netlify.com/`,
+    siteUrl: `https://gabrielkuettel.com/`,
     social: {
       twitter: `gabrielkuettel`
     }
@@ -57,13 +57,13 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `Gatsby Starter Blog`,
-        short_name: `GatsbyJS`,
+        name: `Gabriel Kuettel Portfolio`,
+        short_name: `GK Portfolio`,
         start_url: `/`,
-        background_color: `#ffffff`,
-        theme_color: `#663399`,
-        display: `minimal-ui`,
-        icon: `content/assets/gatsby-icon.png`
+        background_color: `#f2f2f2`,
+        theme_color: `#f92300`,
+        display: `standalone`,
+        icon: `content/assets/me.jpg`
       }
     },
     `gatsby-plugin-offline`,
