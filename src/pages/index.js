@@ -2,12 +2,10 @@ import React from "react";
 import { Link, graphql } from "gatsby";
 import Layout from "../components/Layout";
 import SEO from "../components/seo";
-import { rhythm } from "../utils/typography";
 import styles from "./index.module.css";
-import WebImage from "../components/Image/WebImage";
 import Image from "../components/Image/Image";
 
-class BlogIndex extends React.Component {
+class Index extends React.Component {
   render() {
     const { data } = this.props;
     const siteTitle = data.site.siteMetadata.title;
@@ -22,46 +20,32 @@ class BlogIndex extends React.Component {
 
         <div className={styles.gridWrapper}>
           {posts.map(({ node }) => {
-            const slug = node.fields.slug.slice(1);
-            const title = node.frontmatter.title || node.fields.slug;
-            const subtitle = node.frontmatter.subtitle || null;
-
-            let image = "placeholder.jpg";
-
-            if (node.frontmatter.img) {
-              image = node.frontmatter.img.relativePath;
-            }
-
-            console.log("image", image);
+            let { slug } = node.fields,
+              { title, subtitle, feature, img: image } = node.frontmatter;
+            image ? (image = image.relativePath) : (image = "placeholder.jpg");
 
             return (
               <div
-                key={node.fields.slug}
-                className={
-                  node.frontmatter.feature ? styles.feature : styles.panel
-                }
+                key={slug}
+                className={feature ? styles.feature : styles.panel}
               >
-                <div className={styles.container}>
-                  <Link to={node.fields.slug}>
+                <div className={styles.imageContainer}>
+                  <Link to={slug}>
                     <h4 className={styles.title}>{title}</h4>
-                    <Image src={image} />
-                    <h5 className={styles.subtitle}>
-                      {subtitle ? <>{subtitle}</> : null}
-                    </h5>
+                    <Image src={image} className={styles.image} />
+                    <h5 className={styles.subtitle}>{subtitle}</h5>
                   </Link>
                 </div>
               </div>
             );
           })}
-
-          {/* <div className={styles.footer} /> */}
         </div>
       </Layout>
     );
   }
 }
 
-export default BlogIndex;
+export default Index;
 
 export const pageQuery = graphql`
   query {
