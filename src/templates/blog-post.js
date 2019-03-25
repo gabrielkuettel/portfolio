@@ -16,7 +16,7 @@ class BlogPostTemplate extends Component {
         <div
           style={{
             background: `white`,
-            padding: `${rhythm(1 / 2)} ${rhythm(1)}`
+            padding: `${rhythm(1 / 2)} ${rhythm(1 / 2)}`
           }}
         >
           <h1>{post.frontmatter.title}</h1>
