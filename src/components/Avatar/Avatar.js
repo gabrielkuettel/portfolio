@@ -48,7 +48,7 @@ const Avatar = ({ pathname, phrases }) => {
 
 const avatarQuery = graphql`
   query avatarQuery {
-    avatar: file(absolutePath: { regex: "/me.jpg/" }) {
+    avatar: file(absolutePath: { regex: "/avatar.jpg/" }) {
       childImageSharp {
         fixed(width: 100, height: 100) {
           ...GatsbyImageSharpFixed
