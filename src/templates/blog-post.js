@@ -41,19 +41,21 @@ class BlogPostTemplate extends Component {
               flexWrap: `wrap`,
               justifyContent: `space-between`,
               padding: 0,
-              margin: 0
+              marginTop: `15px`
             }}
           >
             {previous && (
               <Link to={previous.fields.slug} rel="prev">
-                <button class={styles.btn}>
+                <button className={styles.btn}>
                   ⇐ {previous.frontmatter.title}
                 </button>
               </Link>
             )}
             {next && (
               <Link to={next.fields.slug} rel="next">
-                <button class={styles.btn}>{next.frontmatter.title} ⇒</button>
+                <button className={styles.btn}>
+                  {next.frontmatter.title} ⇒
+                </button>
               </Link>
             )}
           </div>
