@@ -3,6 +3,7 @@ import { Link, graphql } from "gatsby";
 import Layout from "../components/Layout";
 import SEO from "../components/seo";
 import { rhythm, scale } from "../utils/typography";
+import styles from "./blog-post.module.css";
 
 class BlogPostTemplate extends Component {
   render() {
@@ -13,6 +14,7 @@ class BlogPostTemplate extends Component {
     return (
       <Layout location={this.props.location} title={siteTitle}>
         <SEO title={post.frontmatter.title} description={post.excerpt} />
+
         <div
           style={{
             background: `white`,
@@ -32,31 +34,29 @@ class BlogPostTemplate extends Component {
             {post.frontmatter.date}
           </p>
           <div dangerouslySetInnerHTML={{ __html: post.html }} />
-          <ul
+
+          <div
             style={{
               display: `flex`,
               flexWrap: `wrap`,
               justifyContent: `space-between`,
-              listStyle: `none`,
               padding: 0,
               margin: 0
             }}
           >
-            <li>
-              {previous && (
-                <Link to={previous.fields.slug} rel="prev">
-                  ← {previous.frontmatter.title}
-                </Link>
-              )}
-            </li>
-            <li>
-              {next && (
-                <Link to={next.fields.slug} rel="next">
-                  {next.frontmatter.title} →
-                </Link>
-              )}
-            </li>
-          </ul>
+            {previous && (
+              <Link to={previous.fields.slug} rel="prev">
+                <button class={styles.btn}>
+                  ⇐ {previous.frontmatter.title}
+                </button>
+              </Link>
+            )}
+            {next && (
+              <Link to={next.fields.slug} rel="next">
+                <button class={styles.btn}>{next.frontmatter.title} ⇒</button>
+              </Link>
+            )}
+          </div>
         </div>
       </Layout>
     );
