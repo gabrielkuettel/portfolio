@@ -12,6 +12,10 @@
   box-sizing: border-box;
 }
 
+body {
+  background: #f2f2f2;
+}
+
 .gridWrapper {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
