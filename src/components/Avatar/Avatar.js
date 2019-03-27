@@ -18,7 +18,11 @@ const Avatar = ({ pathname, phrases }) => {
           >
             <Link to="/">
               <Image
-                fixed={data.avatar.childImageSharp.fixed}
+                fixed={
+                  pathname === "/"
+                    ? data.avatarImage.childImageSharp.fixed
+                    : data.avatar.childImageSharp.fixed
+                }
                 alt={author}
                 style={{
                   marginRight: rhythm(1 / 2),
@@ -48,7 +52,14 @@ const Avatar = ({ pathname, phrases }) => {
 
 const avatarQuery = graphql`
   query avatarQuery {
-    avatar: file(absolutePath: { regex: "/avatar.jpg/" }) {
+    avatar: file(absolutePath: { regex: "/avatar.png/" }) {
+      childImageSharp {
+        fixed(width: 100, height: 100) {
+          ...GatsbyImageSharpFixed
+        }
+      }
+    }
+    avatarImage: file(absolutePath: { regex: "/avatar.jpg/" }) {
       childImageSharp {
         fixed(width: 100, height: 100) {
           ...GatsbyImageSharpFixed
