@@ -9,7 +9,7 @@ order: 8
 
 The Gold Standard for the Global Goals (GS4GG) Portal is a feature-rich Wordpress portal for project developers who are certifying their projects through Gold Standard. I developed the website using Wordpress/PHP and Advanced Custom Fields to handle the business logic. I built the frontend template from the ground-up using Adobe Muse.
 
-####[Visit Website](http://localhost:8000/projects/gs4gg-portal/)
+####[Visit Website](https://globalgoals.goldstandard.org/)
 
 #### Watch Demo
 
