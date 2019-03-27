@@ -1,13 +1,15 @@
 ---
 title: "SC Animation"
-subtitle: "motion design"
+subtitle: "Motion Design"
 date: "2018"
 img: "thumbnail.jpg"
-tools: "Adobe After Effects, Adobe Illustrator"
+tools: "Adobe After Effects, Adobe Illustrator, Adobe Premiere Pro"
 order: 6
 ---
 
-Feature animation designed for <a href="https://sustain-cert.com">SustainCERT</a>.
+Feature animation created to advertize the launch of <a href="https://sustain-cert.com">SustainCERT</a>. I created the animation using Adobe After Effects, Adobe Illustrator for static assets, and Adobe Premiere Pro for editing.
+
+#### Watch Animation
 
 <iframe     
     width="560" 
