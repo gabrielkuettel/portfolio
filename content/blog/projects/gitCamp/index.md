@@ -9,7 +9,7 @@ img: "gitcamp-logo.png"
 
 gitCamp is a student collaboration platform integrated with GitHub's API. I built gitCamp using Node.js, Express, PassportJS for authentication, Mongoose as an ODM for MongoDB, and React to create a dynamic and decoupled frontend client.
 
-####[Visit app](https://gitcamp.herokuapp.com/) | [View source](https://github.com/gabrielkuettel/gitCamp)
+####[Visit App](https://gitcamp.herokuapp.com/) | [View Source](https://github.com/gabrielkuettel/gitCamp)
 
 <img width="100%" src="gitcamp-logo-full.png">
 

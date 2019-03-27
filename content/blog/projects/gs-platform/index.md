@@ -3,13 +3,13 @@ title: "Gold Standard Platform"
 subtitle: "Web Design, UX/UI"
 tools: "Adobe Illustrator, Adobe Photoshop"
 order: 3
-date: "2018-05-06T23:46:37.121Z"
+date: "2018"
 img: "thumbnail.jpg"
 ---
 
-#### Project Background
+The Gold Standard Platform is a collaboration platform that aims to mobilize partnerships and facilitate structured programmes to create concrete outcomes. I envision the UX/UI and designed static comps for the frontend using Adobe Illustrator and Adobe Photoshop.
 
-Commodo nisi aliquip ullamco irure sint in est commodo. Excepteur ad deserunt sint sunt aute ad culpa exercitation deserunt cillum ea elit in. Enim qui magna ut in esse quis deserunt duis nulla. Aute nulla labore eu cupidatat. Web designs for the <a href="https://www.goldstandard.org/get-involved/join-platform">Gold Standard platform</a>
+####[Visit Website](https://platform.goldstandard.org/home)
 
 #### Home Page
 
