@@ -1,7 +1,7 @@
 ---
 title: "SustainCERT"
 subtitle: "Identity Design"
-tools: "Adobe Illustrator"
+tools: "Adobe Illustrator, Adobe Photoshop"
 order: 2
 date: "2018"
 img: "sustaincert-logo.png"
@@ -21,4 +21,8 @@ A core pledge of SustainCERT is to enable blockchain-based technologies to make 
 
 I endeavored to capture this pledge in the design of SustainCERT's identity through a sophisticated and modern design that evokes its cutting-edge mission.
 
-#### Exploration
+This process involved a lot of exploration, pen-and-paper brainstorming, and concepting. Below is a brief 'outtake' from this process.
+
+#### Infographic Exploration
+
+<img width="100%" src="sustaincert-exploration.png">
