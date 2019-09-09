@@ -21,14 +21,6 @@ const Header = ({ location, phrases, title }) => {
           <a
             target="_blank"
             rel="noopener noreferrer"
-            href="https://twitter.com/GabrielKuettel"
-            style={{ marginRight: `6px` }}
-          >
-            <FaTwitter />
-          </a>{" "}
-          <a
-            target="_blank"
-            rel="noopener noreferrer"
             href="https://www.linkedin.com/in/gabrielkuettel/"
             style={{ marginRight: `6px` }}
           >
