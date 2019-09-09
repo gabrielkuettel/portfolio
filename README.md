@@ -10,7 +10,7 @@
 <br/>
 <br/>
 
-[![Netlify Status](https://api.netlify.com/api/v1/badges/ea3b4bf9-da34-4de1-b57a-16fc5e7ce1c5/deploy-status)](https://app.netlify.com/sites/gabrielkuettel/deploys)
+[![Netlify Status](https://api.netlify.com/api/v1/badges/ea3b4bf9-da34-4de1-b57a-16fc5e7ce1c5/deploy-status)](https://gabrielkuettel.com)
 [![GitHub followers](https://img.shields.io/github/followers/gabrielkuettel?label=follow%20me&style=social)](https://github.com/gabrielkuettel)
 
 Hi! My name is Gabriel. I’m a fullstack web developer with a background in graphic design, branding and marketing. I built my portfolio to showcase my work using [Gatsby](https://www.gatsbyjs.org/) - a static site generator based on React.
