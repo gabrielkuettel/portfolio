@@ -5,7 +5,7 @@
 </p>
 
 # portfolio
-> A portfolio of my work in web development, UX/UI design, branding, and motion design. Built with [Gatsby](https://www.gatsbyjs.org/).
+> A portfolio of my work in web development, UX/UI design, branding, and motion design.
 
 <br/>
 <br/>
