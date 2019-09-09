@@ -16,7 +16,11 @@ const Avatar = ({ pathname, phrases }) => {
               display: `flex`
             }}
           >
-            <Link to="/">
+            <Link to={
+               pathname === "/" 
+                  ? "/about-me"
+                  : "/"
+            }>
               <Image
                 fixed={
                   pathname === "/"
