@@ -6,7 +6,7 @@ order: 1
 date: "2019"
 img: "gitcamp-logo.png"
 ---
-<img width="100%" src="gitcamp-logo-full.png">
+<img src="gitcamp-logo-full.png">
 
 > Project collaboration platform built using the GitHub API
 
@@ -17,6 +17,8 @@ img: "gitcamp-logo.png"
 [![Languages](https://img.shields.io/github/languages/top/gabrielkuettel/gitCamp)](https://github.com/gabrielkuettel/gitCamp)
 [![Last commit](https://img.shields.io/github/last-commit/gabrielkuettel/gitCamp)](https://github.com/gabrielkuettel/gitCamp)
 [![GitHub followers](https://img.shields.io/github/followers/gabrielkuettel?label=follow%20me&style=social)](https://github.com/gabrielkuettel)
+
+### Project Background
 
 When I was learning to code, I loved teaming up with people to create amazing applications using exciting new technologies. However, collaborating using git-based workflows can be overwhelming and frustrating for students and beginners. That's why I created gitCamp.
 
@@ -55,7 +57,7 @@ I built gitCamp using Node and Express for the backend, PassportJS and github OA
    <li>View and invite mutual followers ('friends') to collaborate</li>
 </ul>
 
-### Video Demo
+### Demo
 
 <video style="padding: 0 0 40px 0;" width="100%" controls autoplay loop>
     <source src="gitcamp-demo-video.mp4" type="video/mp4">
