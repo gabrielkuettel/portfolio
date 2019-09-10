@@ -19,6 +19,6 @@ A core pledge of SustainCERT is to enable blockchain-based technologies to make 
 
 This process involved a lot of exploration, pen-and-paper brainstorming, and concepting. Below is a brief 'outtake' from this process.
 
-### Infographic Exploration
+### Process Outtakes
 
 <img width="100%" src="sustaincert-exploration.png">
