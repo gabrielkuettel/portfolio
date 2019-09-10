@@ -7,7 +7,7 @@ date: "2018"
 img: "sustaincert-logo.png"
 ---
 
-<img width="100%" src="sustaincert-logo-full.png">
+<img src="sustaincert-logo-full.png">
 
 > Brand identity design for <a href="https://sustain-cert.com">SustainCERT</a>. 
 

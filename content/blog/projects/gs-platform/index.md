@@ -1,28 +1,28 @@
 ---
 title: "Gold Standard Platform"
 subtitle: "Web Design, UX/UI"
-tools: "Adobe Illustrator, Adobe Photoshop"
+tools: "Adobe Illustrator, Adobe Photoshop, Adobe XD"
 order: 3
 date: "2018"
 img: "thumbnail.jpg"
 ---
 
+> UX/UI design for [Gold Standard Platform](https://platform.goldstandard.org/home)
+
 The Gold Standard Platform is a collaboration platform that aims to mobilize partnerships and facilitate structured programmes to create concrete outcomes. I envision the UX/UI and designed static comps for the frontend using Adobe Illustrator and Adobe Photoshop.
 
-####[Visit Website](https://platform.goldstandard.org/home)
-
-#### Home Page
+### Home Page
 
 <img src="home.jpg">
 
-#### Participants Page
+### Participants Page
 
 <img src="participants.jpg">
 
-#### Dashboard
+### Dashboard
 
 <img src="dashboard.jpg">
 
-#### UI Kit
+### UI Kit
 
 <img src="uxui.jpg">
