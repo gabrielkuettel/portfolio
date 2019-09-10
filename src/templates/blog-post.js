@@ -21,7 +21,13 @@ class BlogPostTemplate extends Component {
             padding: `${rhythm(1)} ${rhythm(1)}`
           }}
         >
-          <h1>{post.frontmatter.title}</h1>
+          <h1
+            style={{
+              marginTop: rhythm(1)
+            }}
+          >
+            {post.frontmatter.title}
+          </h1>
           <p
             style={{
               ...scale(-1 / 5),
