@@ -18,4 +18,4 @@ Hi! My name is Gabriel. I’m a fullstack web developer with a background in gra
 [Visit my portfolio](https://gabrielkuettel.com)
 
 ---
-Created with `<3` by <a href="https://gabrielkuettel.com" target="_blank">Gabriel Kuettel</a>. 
+Built with `<3` by <a href="https://gabrielkuettel.com" target="_blank">Gabriel Kuettel</a>. 
