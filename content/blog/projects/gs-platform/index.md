@@ -2,7 +2,7 @@
 title: "Gold Standard Platform"
 subtitle: "Web Design, UX/UI"
 tools: "Adobe Illustrator, Adobe Photoshop, Adobe XD"
-order: 3
+order: 5
 date: "2018"
 img: "thumbnail.jpg"
 ---

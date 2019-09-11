@@ -1,10 +1,10 @@
 ---
 title: "GS4GG Portal"
-subtitle: "Wordpress Development"
+subtitle: "Fullstack Web App"
 tools: "Wordpress/PHP, ACF, Adobe Muse"
 date: "2017"
 img: "thumbnail.jpg"
-order: 8
+order: 4
 ---
 <div style="text-align: center;">
    <img src="gs4gg-animated-logo.gif">
