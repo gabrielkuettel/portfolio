@@ -7,9 +7,15 @@ order: 7
 img: "thumbnail.jpg"
 ---
 
-Feature animation developed for <a href="https://goldstandard.org">SustainCERT</a> to commemorate the launch of Gold Standard for the Global Goals, a new standard for climate and development projects. I created the animation using Adobe After Effects, Adobe Illustrator for static assets, and Adobe Premiere Pro for editing.
+> Feature animation for <a href="https://goldstandard.org">Gold Standard for the Global Goals</a> 
 
-#### Watch Animation
+### Project Background
+
+To commemorate the launch of Gold Standard for the Global Goals, a new standard for climate and development projects, I was tasked with creating a feature animation that both advertised and informed clients of the key features of the new standard.
+
+I created the animation using Adobe After Effects, Adobe Illustrator for static assets, and Adobe Premiere Pro for editing.
+
+### Watch
 
 <iframe     
     width="560" 

@@ -7,9 +7,15 @@ tools: "Adobe After Effects, Adobe Illustrator, Adobe Premiere Pro"
 order: 6
 ---
 
-Feature animation created to advertize the launch of <a href="https://sustain-cert.com">SustainCERT</a>. I created the animation using Adobe After Effects, Adobe Illustrator for static assets, and Adobe Premiere Pro for editing.
+> Feature animation for <a href="https://sustain-cert.com">SustainCERT</a>
 
-#### Watch Animation
+### Project Background
+
+To announce the launch of SustainCERT, I was tasked with creating a feature animation that encapsulated the forward-looking vision of the company.
+
+I created the animation using Adobe After Effects, Adobe Illustrator for static assets, and Adobe Premiere Pro for editing.
+
+### Watch
 
 <iframe     
     width="560" 
