@@ -57,8 +57,8 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `Gabriel Kuttel Portfolio`,
-        short_name: `GK Portfolio`,
+        name: `Gabriel Küttel Portfolio`,
+        short_name: `Gabriel Küttel Portfolio`,
         start_url: `/`,
         background_color: `#f2f2f2`,
         theme_color: `#f92300`,
