@@ -35,7 +35,7 @@ const Header = ({ location, phrases, title }) => {
             <FaGithub />
           </a>{" "}
           <a
-            href="mailto:gabrielkuettel@gmail.com"
+            href="mailto:gkdesigndev@gmail.com"
             style={{ marginRight: `6px` }}
           >
             <FaEnvelope />

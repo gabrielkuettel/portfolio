@@ -1,11 +1,11 @@
 {
-  "name": "gabriel-kuettel-portfolio",
+  "name": "gabriel-kuttel-portfolio",
   "private": false,
-  "description": "Portfolio website for Gabriel Kuettel",
+  "description": "Portfolio website for Gabriel Kuttel",
   "version": "1.0.0",
-  "author": "Gabriel Kuettel <gabrielkuettel@gmail.com>",
+  "author": "Gabriel Kuttel <gkdesigndev@gmail.com>",
   "bugs": {
-    "url": "https://gabrielkuettel.com"
+    "url": "https://gabrielkuttel.com"
   },
   "dependencies": {
     "gatsby": "^2.0.107",
@@ -35,7 +35,7 @@
     "typography": "^0.16.18",
     "typography-theme-sutro": "^0.16.18"
   },
-  "homepage": "https://gabrielkuettel.com",
+  "homepage": "https://gabrielkuttel.com",
   "keywords": [
     "gatsby"
   ],

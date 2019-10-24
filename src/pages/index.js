@@ -29,7 +29,7 @@ class Index extends Component {
         <SEO
           title={siteTitle}
           keywords={[
-            `gabriel kuettel`,
+            `gabriel kuttel`,
             `web development`,
             `fullstack`,
             `react`,
