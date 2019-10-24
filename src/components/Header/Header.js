@@ -1,7 +1,7 @@
 import React from "react";
 import Avatar from "../Avatar/Avatar";
 import styles from "./header.module.css";
-import { FaTwitter, FaLinkedin, FaEnvelope, FaGithub } from "react-icons/fa";
+import { FaBehance, FaLinkedin, FaEnvelope, FaGithub, FaVimeo } from "react-icons/fa";
 
 const Header = ({ location, phrases, title }) => {
   const pathname = location.pathname;
@@ -36,9 +36,21 @@ const Header = ({ location, phrases, title }) => {
           </a>{" "}
           <a
             href="mailto:gkdesigndev@gmail.com"
-            style={{ marginRight: `6px` }}
+            style={{ marginRight: `10px` }}
           >
             <FaEnvelope />
+          </a>
+          <a
+            href="https://www.behance.net/gabrielkuettel"
+            style={{ marginRight: `10px` }}
+          >
+            <FaBehance />
+          </a>
+          <a
+            href="https://vimeo.com/gabrielkuettel"
+            style={{ marginRight: `6px` }}
+          >
+            <FaVimeo />
           </a>
         </div>
       </div>
