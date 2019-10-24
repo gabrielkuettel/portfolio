@@ -4,7 +4,7 @@ import styles from "./footer.module.css";
 const Footer = props => (
   <footer className={styles.footer}>
     Designed and built by {` `}
-    <a href="mailto:gkdesigndev@gmail.com">Gabriel Kuettel</a> | Copyright
+    <a href="mailto:gkdesigndev@gmail.com">Gabriel Küttel</a> | Copyright
     &copy; {new Date().getFullYear()} |{" "}
     <a
       href="https://github.com/gabrielkuettel/portfolio"
