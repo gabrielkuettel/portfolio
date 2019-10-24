@@ -4,11 +4,11 @@ subtitle: "Fullstack Web Developer"
 tools: "Graphic & Motion Designer"
 date: "2019"
 order: 0
-img: "me.jpg"
+img: "gabriel-kuettel.jpg"
 feature: true
 ---
 
-### Hi! My name is Gabriel. I'm a full stack web developer with a background in graphic design, branding and marketing.
+### Hi! My name is Gabriel Kuettel. I'm a full stack web developer with a background in graphic design, branding and marketing.
 
 I have a knack for designing and developing robust and user-friendly applications and websites using modern build tools. 
 

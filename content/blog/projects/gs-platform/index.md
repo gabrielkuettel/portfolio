@@ -15,16 +15,16 @@ The Gold Standard Platform is a collaboration platform that aims to mobilize par
 
 ### Home Page
 
-<img src="home.jpg">
+<img src="home.jpg" alt="gabriel kuettel" title="gabriel kuettel">
 
 ### Participants Page
 
-<img src="participants.jpg">
+<img src="participants.jpg" alt="gabriel kuettel" title="gabriel kuettel">
 
 ### Dashboard
 
-<img src="dashboard.jpg">
+<img src="dashboard.jpg" alt="gabriel kuettel" title="gabriel kuettel">
 
 ### UI Kit
 
-<img src="uxui.jpg">
+<img src="uxui.jpg" alt="gabriel kuettel" title="gabriel kuettel">

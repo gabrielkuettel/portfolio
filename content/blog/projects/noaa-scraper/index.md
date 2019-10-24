@@ -6,7 +6,7 @@ date: "2019"
 img: "thumbnail.png"
 order: 3
 ---
-<img src="thumbnail.png">
+<img src="thumbnail.png" alt="gabriel kuettel" title="gabriel kuettel">
 
 > Scrape news from NOAA, leave comments on articles, and save them for later.
 

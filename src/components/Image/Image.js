@@ -5,6 +5,8 @@ import { StaticQuery, graphql } from "gatsby";
 const renderImage = file => {
   return (
     <Img
+      alt={`gabriel kuettel`}
+      title={`gabriel kuettel`}
       fluid={file.node.childImageSharp.fluid}
       style={{
         height: `100%`,

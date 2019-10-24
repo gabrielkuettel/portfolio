@@ -28,6 +28,7 @@ const Avatar = ({ pathname, phrases }) => {
                     : data.avatar.childImageSharp.fixed
                 }
                 alt={author}
+                title={author}
                 style={{
                   marginRight: rhythm(1 / 2),
                   marginBottom: 0,
