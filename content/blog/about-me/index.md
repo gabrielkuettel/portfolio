@@ -4,7 +4,7 @@ subtitle: "Fullstack Web Developer"
 tools: "Graphic & Motion Designer"
 date: "2019"
 order: 0
-img: "gabrielkuttel.jpg"
+img: "gabriel-kuttel.jpg"
 feature: true
 ---
 
