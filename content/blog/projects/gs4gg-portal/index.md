@@ -7,7 +7,7 @@ img: "thumbnail.jpg"
 order: 4
 ---
 <div style="text-align: center;">
-   <img src="gs4gg-animated-logo.gif" alt="gabriel kuettel" title="gabriel kuettel">
+   <img src="gs4gg-animated-logo.gif" alt="gabriel kuettel gs4gg" title="gabriel kuettel gs4gg">
 </div>
 
 > Purpose-built portal for technical documentation, training videos, and additional resources used by 1,700 climate projects.

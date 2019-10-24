@@ -15,12 +15,12 @@ SustainCERT's Project Developer portal is an online application used by wind, so
 
 ### Project Dashboard
 
-<img src="project-dashboard.jpg" alt="gabriel kuettel" title="gabriel kuettel">
+<img src="project-dashboard.jpg" alt="gabriel kuettel project dashboard" title="gabriel kuettel project dashboard">
 
 ### Tasks View
 
-<img src="tasks-view.jpg" alt="gabriel kuettel" title="gabriel kuettel">
+<img src="tasks-view.jpg" alt="gabriel kuettel tasks view" title="gabriel kuettel tasks view">
 
 ### Projects View
 
-<img src="projects-view.jpg" alt="gabriel kuettel" title="gabriel kuettel">
+<img src="projects-view.jpg" alt="gabriel kuettel projects view" title="gabriel kuettel project view">

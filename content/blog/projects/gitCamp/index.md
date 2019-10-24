@@ -6,7 +6,7 @@ order: 1
 date: "2019"
 img: "gitcamp-logo.png"
 ---
-<img src="gitcamp-logo-full.png" alt="gabriel kuettel" title="gabriel kuettel">
+<img src="gitcamp-logo-full.png" alt="gabriel kuettel gitcamp" title="gabriel kuettel gitcamp">
 
 > Project collaboration platform built using the GitHub API
 
