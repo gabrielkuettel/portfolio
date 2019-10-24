@@ -31,7 +31,7 @@ class Index extends Component {
           keywords={[
             `gabriel kuettel`,
             `gabriel kuttel`,
-            `gabriel küttel`
+            `gabriel küttel`,
             `web development`,
             `fullstack`,
             `react`,
