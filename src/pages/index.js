@@ -30,6 +30,8 @@ class Index extends Component {
           title={siteTitle}
           keywords={[
             `gabriel kuettel`,
+            `gabriel kuttel`,
+            `gabriel küttel`
             `web development`,
             `fullstack`,
             `react`,

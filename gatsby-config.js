@@ -1,11 +1,11 @@
 module.exports = {
   siteMetadata: {
-    title: `Gabriel Kuettel's portfolio`,
-    author: `Gabriel Kuettel`,
+    title: `Gabriel Küttel's portfolio`,
+    author: `Gabriel Küttel`,
     description: `My portfolio where I showcase my most recent work.`,
     siteUrl: `https://gabrielkuettel.com/`,
     social: {
-      twitter: `gabrielkuettel`
+      twitter: `gabrielkuttel`
     }
   },
   plugins: [
@@ -57,7 +57,7 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `Gabriel Kuettel Portfolio`,
+        name: `Gabriel Küttel Portfolio`,
         short_name: `GK Portfolio`,
         start_url: `/`,
         background_color: `#f2f2f2`,
