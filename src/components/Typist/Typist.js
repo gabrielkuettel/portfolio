@@ -25,7 +25,7 @@ const AnimatedTypingComponent = ({ pathname, phrases }) => {
               );
             }
           })}
-          How can I <a href="mailto:gabrielkuettel@gmail.com">help?</a>
+          How can I <a href="mailto:gkdesigndev@gmail.com">help?</a>
         </>
       ) : (
         <>{pathname}</>

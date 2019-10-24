@@ -14,10 +14,8 @@ I have a knack for designing and developing robust and user-friendly application
 
 I cut my teeth as a developer and designer working for Gold Standard, a non-profit focused on reducing carbon emissions by certifying climate and sustainable development projects. I spearheaded the 'digitization' of their standard, Gold Standard for the Global Goals, by building the <a target="_blank" href="https://globalgoals.goldstandard.org">Project Developer portal</a> - an online portal for technical documentation, training videos, and additional resources, used by over 1,700 climate and sustainable development projects. 
 
-<!-- I love combining my passion for climate action and the environment with my skills as a developer, and would like to <a href="mailto:gabrielkuettel@gmail.com.com">chat</a> if you have a project that tackles those challenges or if you work in that space.  -->
-
 In my free time, I'm working on <a target="_blank" href="https://gitcamp.net">gitCamp</a> - an open-source collaboration platform for students built using the github API. 
 
-Looking for someone to build blazing fast, scalable, and intuitive web apps for your business or non-profit? <a href="mailto:gabrielkuettel@gmail.com.com">Let's talk!</a>
+Looking for someone to build blazing fast, scalable, and intuitive web apps for your business or non-profit? <a href="mailto:	gkdesigndev@gmail.com">Let's talk!</a>
 
-<a href="mailto:gabrielkuettel@gmail.com.com">Email</a> | <a href="resume_gabriel_kuettel.pdf">Resume</a>
+<a href="mailto:gkdesigndev@gmail.com">Email</a> | <a href="gabriel-kuttel-cv.pdf">Resume</a>
