@@ -16,6 +16,6 @@ I cut my teeth as a developer and designer working for Gold Standard, a non-prof
 
 In my free time, I'm working on <a target="_blank" href="https://gitcamp.net">gitCamp</a> - an open-source collaboration platform for students built using the github API. 
 
-Looking for someone to build blazing fast, scalable, and intuitive web apps for your business or non-profit? <a href="mailto:	gkdesigndev@gmail.com">Let's talk!</a>
+Looking for someone to build blazing fast, scalable, and intuitive web apps for your business or non-profit? <a href="mailto:gabrielkuettel@gmail.com">Let's talk!</a>
 
-<a href="mailto:gkdesigndev@gmail.com">Email</a> | <a href="gabriel-kuttel-cv.pdf">Resume</a>
+<a href="mailto:gabrielkuettel@gmail.com">Email</a> | <a href="resume_gabriel_kuettel.pdf">Resume</a>
