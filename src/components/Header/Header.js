@@ -1,7 +1,7 @@
 import React from "react";
 import Avatar from "../Avatar/Avatar";
 import styles from "./header.module.css";
-import { FaBehance, FaLinkedin, FaEnvelope, FaGithub, FaVimeo } from "react-icons/fa";
+import { FaBehance, FaLinkedin, FaEnvelope, FaGithub, FaVimeo, FaSoundcloud } from "react-icons/fa";
 
 const Header = ({ location, phrases, title }) => {
   const pathname = location.pathname;
@@ -51,6 +51,12 @@ const Header = ({ location, phrases, title }) => {
             style={{ marginRight: `6px` }}
           >
             <FaVimeo />
+          </a>
+          <a
+            href="https://soundcloud.com/gabrielkuettel"
+            style={{ marginRight: `6px` }}
+          >
+            <FaSoundcloud />
           </a>
         </div>
       </div>
