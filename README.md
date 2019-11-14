@@ -15,7 +15,7 @@
 
 Hi! My name is Gabriel. I’m a fullstack web developer with a background in graphic design, branding and marketing. I built my portfolio to showcase my work using [Gatsby](https://www.gatsbyjs.org/) - a static site generator based on React.
 
-## [Visit my portfolio](https://gabrielkuettel.com)
+### [Visit my portfolio](https://gabrielkuettel.com)
 
 ---
 Built with `<3` by <a href="https://gabrielkuettel.com" target="_blank">Gabriel Küttel</a>. 
