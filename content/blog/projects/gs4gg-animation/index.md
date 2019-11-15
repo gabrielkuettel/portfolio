@@ -1,13 +1,13 @@
 ---
-title: "GS4GG Animation"
-subtitle: "Motion Design"
-date: "2016"
-tools: "Adobe After Effects, Adobe Illustrator"
+title: 'GS4GG Animation'
+subtitle: 'Motion Design'
+date: '2016'
+tools: 'Adobe After Effects, Adobe Illustrator'
 order: 7
-img: "thumbnail.jpg"
+img: 'thumbnail.jpg'
 ---
 
-> Feature animation for <a href="https://goldstandard.org">Gold Standard for the Global Goals</a> 
+> Feature animation for <a href="https://goldstandard.org">Gold Standard for the Global Goals</a>
 
 ### Project Background
 

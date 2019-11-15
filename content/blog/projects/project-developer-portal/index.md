@@ -1,10 +1,10 @@
 ---
-title: "Project Developer Portal"
-subtitle: "Frontend Development"
-tools: "HTML/CSS, Bootstrap 4, jQuery"
-date: "2016-05-06T23:46:37.121Z"
+title: 'Project Developer Portal'
+subtitle: 'Frontend Development'
+tools: 'HTML/CSS, Bootstrap 4, jQuery'
+date: '2016-05-06T23:46:37.121Z'
 order: 6
-img: "thumbnail.jpg"
+img: 'thumbnail.jpg'
 ---
 
 > Frontend Development for <a href="https://impact.sustain-cert.com/">SustainCERT</a>

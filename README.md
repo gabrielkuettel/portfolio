@@ -5,6 +5,7 @@
 </p>
 
 # portfolio
+
 > A portfolio of my work in web development, UX/UI design, branding, and motion design.
 
 <br/>
@@ -18,4 +19,5 @@ Hi! My name is Gabriel. I’m a fullstack web developer with a background in gra
 ### [Visit my portfolio](https://gabrielkuettel.com)
 
 ---
-Built with `<3` by <a href="https://gabrielkuettel.com" target="_blank">Gabriel Küttel</a>. 
+
+Built with `<3` by <a href="https://gabrielkuettel.com" target="_blank">Gabriel Küttel</a>.

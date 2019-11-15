@@ -35,6 +35,9 @@
 		"typography": "^0.16.18",
 		"typography-theme-sutro": "^0.16.18"
 	},
+	"devDependencies": {
+		"prettier": "^1.18.2"
+	},
 	"homepage": "https://gabrielkuettel.com",
 	"keywords": [
 		"gatsby"
@@ -50,6 +53,7 @@
 		"develop": "gatsby develop",
 		"start": "npm run develop",
 		"serve": "gatsby serve",
-		"test": "echo \"Write tests! -> https://gatsby.app/unit-testing\""
+		"test": "echo \"Write tests! -> https://gatsby.app/unit-testing\"",
+		"format": "prettier --write \"**/*.{js,jsx,json,md}\""
 	}
 }

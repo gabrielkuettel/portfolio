@@ -1,9 +1,9 @@
 ---
-title: "Dialed Landing Page"
-subtitle: "Landing Page"
-tools: "HTML, CSS, JavaScript, Jekyll, Adobe Illustrator, Adobe XD"
-date: "2019"
-img: "thumbnail.png"
+title: 'Dialed Landing Page'
+subtitle: 'Landing Page'
+tools: 'HTML, CSS, JavaScript, Jekyll, Adobe Illustrator, Adobe XD'
+date: '2019'
+img: 'thumbnail.png'
 order: 3
 ---
 

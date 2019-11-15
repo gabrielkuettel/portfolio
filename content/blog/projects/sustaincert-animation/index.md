@@ -1,9 +1,9 @@
 ---
-title: "SC Animation"
-subtitle: "Motion Design"
-date: "2018"
-img: "thumbnail.jpg"
-tools: "Adobe After Effects, Adobe Illustrator, Adobe Premiere Pro"
+title: 'SC Animation'
+subtitle: 'Motion Design'
+date: '2018'
+img: 'thumbnail.jpg'
+tools: 'Adobe After Effects, Adobe Illustrator, Adobe Premiere Pro'
 order: 8
 ---
 

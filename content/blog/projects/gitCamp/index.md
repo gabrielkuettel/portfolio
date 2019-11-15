@@ -1,11 +1,12 @@
 ---
-title: "gitCamp"
-subtitle: "Fullstack Web App"
-tools: "Node, Express, Mongoose, Passport, React, Material-UI"
+title: 'gitCamp'
+subtitle: 'Fullstack Web App'
+tools: 'Node, Express, Mongoose, Passport, React, Material-UI'
 order: 1
-date: "2019"
-img: "gitcamp-logo.png"
+date: '2019'
+img: 'gitcamp-logo.png'
 ---
+
 <img src="gitcamp-logo-full.png" alt="gabriel kuettel gitcamp" title="gabriel kuettel gitcamp">
 
 > Project collaboration platform built using the GitHub API
@@ -27,7 +28,9 @@ GitCamp provides a streamlined intro to git-based collaboration by allowing user
 ####[Visit gitCamp](https://gitcamp.net) | [View Source](https://github.com/gabrielkuettel/gitCamp)
 
 ### Built With
+
 I built gitCamp using Node and Express for the backend, PassportJS and github OAuth for authentication, Mongoose as an ODM for the MongoDB database, and React for a dynamic user experience.
+
 <ul style="margin-left: 40px;">
    <li>
       <a href="https://nodejs.org/en/">Node</a>
@@ -49,7 +52,8 @@ I built gitCamp using Node and Express for the backend, PassportJS and github OA
    </li>
 </ul>
 
-### Features 
+### Features
+
 <ul style="margin-left: 40px;">
    <li>Create and manage projects</li>
    <li>Add, edit, delete tasks, and organize them by category.</li>

@@ -1,15 +1,15 @@
 ---
-title: "SustainCERT"
-subtitle: "Identity Design"
-tools: "Adobe Illustrator, Adobe Photoshop"
+title: 'SustainCERT'
+subtitle: 'Identity Design'
+tools: 'Adobe Illustrator, Adobe Photoshop'
 order: 2
-date: "2018"
-img: "sustaincert-logo.png"
+date: '2018'
+img: 'sustaincert-logo.png'
 ---
 
 <img src="sustaincert-logo-full.png">
 
-> Brand identity design for <a href="https://sustain-cert.com">SustainCERT</a>. 
+> Brand identity design for <a href="https://sustain-cert.com">SustainCERT</a>.
 
 ### Project Background
 
