@@ -1,9 +1,9 @@
 {
 	"name": "gabriel-kuettel-portfolio",
-	"private": false,
-	"description": "Portfolio website for Gabriel Küttel",
+	"private": true,
+	"description": "Portfolio website for Gabriel Kuettel",
 	"version": "1.0.0",
-	"author": "Gabriel Küttel <gkdesigndev@gmail.com>",
+	"author": "Gabriel Kuettel <gkdesigndev@gmail.com>",
 	"bugs": {
 		"url": "https://gabrielkuettel.com"
 	},
