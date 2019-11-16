@@ -7,7 +7,7 @@ module.exports = {
 		social: [
 			{
 				type: `email`,
-				url: `gabrielkuettel@gmail.com`,
+				url: `mailto:gabrielkuettel@gmail.com`,
 			},
 			{
 				type: `twitter`,
