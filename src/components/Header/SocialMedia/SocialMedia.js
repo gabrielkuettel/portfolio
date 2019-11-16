@@ -1,6 +1,6 @@
 import React from 'react';
 import styles from './socialmedia.module.css';
-import { displayIcon } from '../../../utils/icons';
+import { displayFaIcon } from '../../../utils/icons';
 import { graphql, useStaticQuery } from 'gatsby';
 
 const SocialMedia = props => {
@@ -24,7 +24,7 @@ const SocialMedia = props => {
 						href={url}
 						style={{ marginRight: `6px` }}
 					>
-						{displayIcon(type)}
+						{displayFaIcon(type)}
 					</a>
 				);
 			})}

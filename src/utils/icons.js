@@ -9,7 +9,7 @@ import {
 	FaSoundcloud,
 } from 'react-icons/fa';
 
-export const displayIcon = type => {
+export const displayFaIcon = type => {
 	switch (type) {
 		case 'email':
 			return <FaEnvelope />;
