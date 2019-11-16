@@ -4,15 +4,36 @@ module.exports = {
 		author: `Gabriel Kuettel`,
 		description: `My portfolio where I showcase my most recent work.`,
 		siteUrl: `https://gabrielkuettel.com/`,
-		social: {
-			email: `gabrielkuettel@gmail.com`,
-			twitter: `https://twitter.com/GabrielKuettel`,
-			github: `https://github.com/gabrielkuettel`,
-			linkedin: `https://www.linkedin.com/in/gabrielkuettel`,
-			behance: `https://www.behance.net/gabrielkuettel`,
-			soundcloud: `https://soundcloud.com/gabrielkuettel`,
-			vimeo: `https://vimeo.com/gabrielkuettel`,
-		},
+		social: [
+			{
+				type: `email`,
+				url: `gabrielkuettel@gmail.com`,
+			},
+			{
+				type: `twitter`,
+				url: `https://twitter.com/GabrielKuettel`,
+			},
+			{
+				type: `github`,
+				url: `https://github.com/gabrielkuettel`,
+			},
+			{
+				type: `linkedin`,
+				url: `https://www.linkedin.com/in/gabrielkuettel`,
+			},
+			{
+				type: `behance`,
+				url: `https://www.behance.net/gabrielkuettel`,
+			},
+			{
+				type: `soundcloud`,
+				url: `https://soundcloud.com/gabrielkuettel`,
+			},
+			{
+				type: `vimeo`,
+				url: `https://vimeo.com/gabrielkuettel`,
+			},
+		],
 	},
 	plugins: [
 		`gatsby-plugin-offline`,
