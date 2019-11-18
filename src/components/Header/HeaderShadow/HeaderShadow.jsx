@@ -16,17 +16,13 @@ const HeaderShadow = () => {
 	`;
 
 	useEffect(() => {
-		console.log('useEffect fired');
 		window.addEventListener('scroll', handleScroll);
-		// setScroll(true);
 	}, []);
 
 	const [scroll, setScroll] = useState(false);
 
 	const handleScroll = event => {
-		console.log(window.scrollY);
-		if (window.scrollY > 1) setScroll(true);
-		if (window.scrollY < 1) setScroll(false);
+		return window.scrollY > 1 ? setScroll(true) : setScroll(false);
 	};
 
 	return (
