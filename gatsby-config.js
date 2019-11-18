@@ -5,6 +5,7 @@ module.exports = {
 		email: `gabrielkuettel@gmail.com`,
 		description: `My portfolio where I showcase my most recent work.`,
 		siteUrl: `https://gabrielkuettel.com/`,
+		siteRepo: `https://github.com/gabrielkuettel/portfolio`,
 		welcomeMessage: [
 			`Hi!`,
 			`I'm Gabriel...`,
