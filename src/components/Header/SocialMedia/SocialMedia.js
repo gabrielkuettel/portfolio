@@ -5,7 +5,7 @@ import styled from 'styled-components';
 
 const Container = styled.div`
 	float: right;
-	margin-top: 20px;
+	margin-top: 1rem;
 
 	@media only screen and (max-device-width: 480px) {
 		display: none;
@@ -13,7 +13,7 @@ const Container = styled.div`
 `;
 
 const Icon = styled.a`
-	margin-right: 6px;
+	margin-right: 0.5rem;
 `;
 
 const SocialMedia = props => {
