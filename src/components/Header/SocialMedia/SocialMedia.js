@@ -3,20 +3,19 @@ import { displayFaIcon } from '../../../utils/icons';
 import { graphql, useStaticQuery } from 'gatsby';
 import styled from 'styled-components';
 
-const Container = styled.div`
-	float: right;
-	margin-top: 1rem;
-
-	@media only screen and (max-device-width: 480px) {
-		display: none;
-	}
-`;
-
-const Icon = styled.a`
-	margin-right: 0.5rem;
-`;
-
 const SocialMedia = () => {
+	const Container = styled.div`
+		margin-top: 1rem;
+
+		@media only screen and (max-device-width: 620px) {
+			display: none;
+		}
+	`;
+
+	const Icon = styled.a`
+		margin-right: 0.5rem;
+	`;
+
 	const {
 		site: {
 			siteMetadata: { social },

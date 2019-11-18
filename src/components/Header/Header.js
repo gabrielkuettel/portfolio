@@ -1,21 +1,22 @@
 import React from 'react';
+import styled from 'styled-components';
 import Avatar from './Avatar/Avatar';
 import SocialMedia from './SocialMedia/SocialMedia';
 
-const Header = ({ location, title }) => {
-	const pathname = location.pathname;
+const Header = ({ location }) => {
+	const Container = styled.header`
+		height: 75px;
+		display: flex;
+		justify-content: space-between;
+	`;
 
-	let header;
+	const { pathname } = location;
 
 	return (
-		<header>
-			<div style={{ height: `75px` }}>
-				<div style={{ float: `left` }}>
-					<Avatar pathname={pathname} />
-				</div>
-				<SocialMedia style={{ float: `right` }} />
-			</div>
-		</header>
+		<Container>
+			<Avatar pathname={pathname} />
+			<SocialMedia />
+		</Container>
 	);
 };
 

@@ -4,23 +4,23 @@ import Image from 'gatsby-image';
 import styled from 'styled-components';
 import Typist from '../Typist/Typist';
 
-const Container = styled.div`
-	display: flex;
-`;
-
-const TypistContainer = styled.div`
-	margin-top: 0.8rem;
-`;
-
-const AvatarImg = styled(Image)`
-	margin-right: 1rem;
-	margin-bottom: 0;
-	max-width: 60px;
-	max-height: 60px;
-	border-radius: 50%;
-`;
-
 const Avatar = ({ pathname }) => {
+	const Container = styled.div`
+		display: flex;
+	`;
+
+	const TypistContainer = styled.div`
+		margin-top: 0.8rem;
+	`;
+
+	const AvatarImg = styled(Image)`
+		margin-right: 1rem;
+		margin-bottom: 0;
+		max-width: 60px;
+		max-height: 60px;
+		border-radius: 50%;
+	`;
+
 	const {
 		site: {
 			siteMetadata: { author },
