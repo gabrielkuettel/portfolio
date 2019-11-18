@@ -2,8 +2,16 @@ module.exports = {
 	siteMetadata: {
 		title: `Gabriel Kuettel's portfolio`,
 		author: `Gabriel Kuettel`,
+		email: `gabrielkuettel@gmail.com`,
 		description: `My portfolio where I showcase my most recent work.`,
 		siteUrl: `https://gabrielkuettel.com/`,
+		welcomeMessage: [
+			`Hi!`,
+			`I'm Gabriel...`,
+			`I'm a frontend developer...`,
+			`And graphic designer...`,
+			`Welcome to my portfolio!`,
+		],
 		social: [
 			{
 				type: `email`,

@@ -20,7 +20,7 @@ const AvatarImg = styled(Image)`
 	border-radius: 50%;
 `;
 
-const Avatar = ({ pathname, phrases }) => {
+const Avatar = ({ pathname }) => {
 	const {
 		site: {
 			siteMetadata: { author },
@@ -43,7 +43,7 @@ const Avatar = ({ pathname, phrases }) => {
 				/>
 			</Link>
 			<TypistContainer>
-				<Typist pathname={pathname} phrases={phrases} />
+				<Typist pathname={pathname} />
 			</TypistContainer>
 		</Container>
 	);

@@ -1,12 +1,19 @@
 import React from 'react';
+import { graphql, useStaticQuery } from 'gatsby';
 import Typing from 'react-typing-animation';
 
-const AnimatedTypingComponent = ({ pathname, phrases }) => {
+const AnimatedTypingComponent = ({ pathname }) => {
+	const {
+		site: {
+			siteMetadata: { email, welcomeMessage },
+		},
+	} = useStaticQuery(EMAIL_QUERY);
+
 	return (
 		<Typing>
 			{pathname === `${__PATH_PREFIX__}/` ? (
 				<>
-					{phrases.map((phrase, index) => {
+					{welcomeMessage.map(phrase => {
 						return (
 							<div key={phrase}>
 								{phrase}
@@ -15,7 +22,7 @@ const AnimatedTypingComponent = ({ pathname, phrases }) => {
 							</div>
 						);
 					})}
-					How can I <a href="mailto:gkdesigndev@gmail.com">help?</a>
+					How can I <a href={`mailto:${email}`}>help?</a>
 				</>
 			) : (
 				<>{pathname}</>
@@ -23,5 +30,16 @@ const AnimatedTypingComponent = ({ pathname, phrases }) => {
 		</Typing>
 	);
 };
+
+const EMAIL_QUERY = graphql`
+	query emailQuery {
+		site {
+			siteMetadata {
+				email
+				welcomeMessage
+			}
+		}
+	}
+`;
 
 export default AnimatedTypingComponent;

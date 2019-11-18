@@ -2,7 +2,7 @@ import React from 'react';
 import Avatar from './Avatar/Avatar';
 import SocialMedia from './SocialMedia/SocialMedia';
 
-const Header = ({ location, phrases, title }) => {
+const Header = ({ location, title }) => {
 	const pathname = location.pathname;
 
 	let header;
@@ -11,7 +11,7 @@ const Header = ({ location, phrases, title }) => {
 		<header>
 			<div style={{ height: `75px` }}>
 				<div style={{ float: `left` }}>
-					<Avatar pathname={pathname} phrases={phrases} />
+					<Avatar pathname={pathname} />
 				</div>
 				<SocialMedia style={{ float: `right` }} />
 			</div>
