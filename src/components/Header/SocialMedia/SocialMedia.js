@@ -1,7 +1,20 @@
 import React from 'react';
-import styles from './socialmedia.module.css';
 import { displayFaIcon } from '../../../utils/icons';
 import { graphql, useStaticQuery } from 'gatsby';
+import styled from 'styled-components';
+
+const Container = styled.div`
+	float: right;
+	margin-top: 20px;
+
+	@media only screen and (max-device-width: 480px) {
+		display: none;
+	}
+`;
+
+const Icon = styled.a`
+	margin-right: 6px;
+`;
 
 const SocialMedia = props => {
 	const {
@@ -11,24 +24,20 @@ const SocialMedia = props => {
 	} = useStaticQuery(SOCIAL_MEDIA_QUERY);
 
 	return (
-		<div
-			className={styles.social}
-			style={{ float: `right`, marginTop: `20px` }}
-		>
+		<Container>
 			{social.map(({ type, url }) => {
 				return (
-					<a
+					<Icon
 						key={type}
 						target="_blank"
 						rel="noopener noreferrer"
 						href={url}
-						style={{ marginRight: `6px` }}
 					>
 						{displayFaIcon(type)}
-					</a>
+					</Icon>
 				);
 			})}
-		</div>
+		</Container>
 	);
 };
 
