@@ -13,7 +13,7 @@ const SocialMedia = () => {
 	`;
 
 	const Icon = styled.a`
-		margin-right: 0.5rem;
+		margin-left: 0.5rem;
 	`;
 
 	const {
