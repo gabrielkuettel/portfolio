@@ -1,5 +1,5 @@
 import React from 'react';
-import Avatar from '../Avatar/Avatar';
+import Avatar from './Avatar/Avatar';
 import SocialMedia from './SocialMedia/SocialMedia';
 
 const Header = ({ location, phrases, title }) => {
