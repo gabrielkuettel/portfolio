@@ -16,7 +16,7 @@ const Icon = styled.a`
 	margin-right: 0.5rem;
 `;
 
-const SocialMedia = props => {
+const SocialMedia = () => {
 	const {
 		site: {
 			siteMetadata: { social },
