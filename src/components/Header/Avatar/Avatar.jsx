@@ -10,14 +10,14 @@ const Avatar = ({ pathname }) => {
 	`;
 
 	const TypistContainer = styled.div`
-		margin-top: 0.8rem;
+		margin-top: 0.5rem;
 	`;
 
 	const AvatarImg = styled(Image)`
 		margin-right: 1rem;
 		margin-bottom: 0;
-		max-width: 60px;
-		max-height: 60px;
+		max-width: 50px;
+		max-height: 50px;
 		border-radius: 50%;
 	`;
 

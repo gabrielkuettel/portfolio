@@ -5,8 +5,7 @@ import styled from 'styled-components';
 
 const SocialMedia = () => {
 	const Container = styled.div`
-		margin-top: 1rem;
-
+		margin-top: 0.7rem;
 		@media only screen and (max-device-width: 620px) {
 			display: none;
 		}
