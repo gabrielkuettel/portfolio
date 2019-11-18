@@ -42,7 +42,7 @@ const SocialMedia = () => {
 };
 
 const SOCIAL_MEDIA_QUERY = graphql`
-	query socialMedia {
+	query socialMediaQuery {
 		site {
 			siteMetadata {
 				social {
